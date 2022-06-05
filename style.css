@@ -267,6 +267,7 @@ body, h1, h2, h3, p, ul{
     border-right: 0;
     border-top: 0;
 }
+
 /* final da imagem após o topo */
 
 /* inicio da seção 2 */
@@ -315,6 +316,7 @@ body, h1, h2, h3, p, ul{
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
 }
+
 /* fim da seção 2 */
 
 /* inicio da seção 3 */
@@ -328,22 +330,22 @@ body, h1, h2, h3, p, ul{
     color: #FF914D;
     text-align: left;
     font-family: 'Cabin', sans-serif;
-    font-size: 38px;
-    margin-left: 200px;
+    font-size: 45px;
+    margin-left: 250px;
 }
 
 .secao3 h3{
     text-align: left;
     font-family: 'Cabin', sans-serif;
     font-weight: lighter;
-    font-size: 28px;
+    font-size: 35px;
     color: black;
-    margin-left: 200px;
+    margin-left: 255px;
     
 }
 
 .link3 {
-    margin-left: 200px;
+    margin-left: 255px;
     color: #FF914D;
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
@@ -355,10 +357,57 @@ body, h1, h2, h3, p, ul{
 }
 
 .homem-com-cartao {
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
     float: left;
-   border-radius: 15px;
+    border-radius: 15px;
 }
 
 /* fim da seção 3  */
+
+/* inicio da seção 4 */
+
+.secao4{
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao4 h2{
+    color: #FF914D;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 45px;
+    margin-left: 250px;
+}
+
+.secao4 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    color: black;
+    margin-left: 255px;
+    
+}
+
+.link4 {
+    margin-left: 255px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.celular-conta{
+    width: 45%;
+    float: left;
+    margin-top: 350px;  
+}
+
+.celular-conta-img{
+    margin-left: 150px;
+    margin-top: 190px;
+    float: left;
+    width: 45%;
+}
+
 
