@@ -16,4 +16,7 @@ Colaboradores: Emmanuele Sofia N. dos Anjos, Gideony Ewerton, Lucas Vinícius Te
 
 
 ### Link surge
+<<<<<<< HEAD
 
+=======
+>>>>>>> defab57813636902d05f75d6a6a0e1395e19e978
