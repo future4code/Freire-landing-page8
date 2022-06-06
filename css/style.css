@@ -2,7 +2,7 @@ body, h1, h2, h3, p, ul{
     padding: 0px;
     margin: 0px;
 }
-
+/*
 .menu{
     width: 100%;
     height: 20px;
@@ -31,6 +31,10 @@ body, h1, h2, h3, p, ul{
     display: inline-block;
 }
 
+.fa-solid{
+    margin-left: 10px;
+}
+
 .menu-nav a{
     display: block;
     text-decoration: none;
@@ -55,8 +59,13 @@ body, h1, h2, h3, p, ul{
 }
 
 .login a {
+    color: white;
     text-decoration: none;
 }
+.login a:hover {
+    color: black;
+}
+
 
 
 /* inicio da imagem após o topo */
@@ -64,11 +73,11 @@ body, h1, h2, h3, p, ul{
 .imagem {
     background: url('../img/imgtopo.jpg') no-repeat center center;
     background-size: cover;
-    height: 865px;
+    height: 765px;
 }
 
 .imagem h1{
-    padding: 370px 0 0 0;
+    padding: 300px 0 0 0;
     margin-left: 220px;
     margin-bottom: 10px;
     font-family: 'Cabin', sans-serif;
@@ -97,7 +106,6 @@ body, h1, h2, h3, p, ul{
     margin-top: -190px;
     margin-right: 40px;
 }
-
 .form h3{
     color: black;
     font-size: 22px;
@@ -278,10 +286,10 @@ body, h1, h2, h3, p, ul{
 /* inicio da seção 5, 6 e 7 */
 
 .secao5{
-    background: url('../img/img5.png') no-repeat center center;
+    background: url('../img/img1.png') no-repeat center center;
     background-position: right 25% bottom 55%;
     background-size: cover;
-    height: 860px;
+    height: 800px;
     
 }
 
@@ -296,7 +304,7 @@ body, h1, h2, h3, p, ul{
 
 .link5 {
     margin-left: 500px;
-    color: #FF914D;
+    color: #030303;
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
 }
@@ -304,7 +312,7 @@ body, h1, h2, h3, p, ul{
 .secao6{
     background: url('../img/img6.png') no-repeat center center;
     background-size: cover;
-    height: 860px;
+    height: 800px;
     
 }
 
@@ -351,3 +359,123 @@ body, h1, h2, h3, p, ul{
     font-weight: bold;
 }
 /* fim da seção 5, 6 e 7 */
+
+
+/* inicio footer 1 */
+
+.footer1{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+}
+
+.sec1{
+    width: 23%;
+    float: left;
+}
+.sec2{
+    width: 23%;
+    float: left;
+}
+.sec3{
+    width: 23%;
+    float: left;
+}
+.sec4{
+    width: 23%;
+    float: left;
+}
+
+.sec1, .sec2, .sec3, .sec4{
+    margin-top: 150px;
+}
+
+.sec1 a, .sec2 a, .sec3 a, .sec4 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.sec1 li, .sec2 li, .sec3 li, .sec4 li{
+    padding-left: 8%;
+    list-style: none;
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.sec1 h2, .sec2 h2, .sec3 h2, .sec4 h2{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    padding-left: 8%;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec1 li a:hover{
+    color: #FF914D;
+}
+.sec2 li a:hover{
+    color: #FF914D;
+}
+.sec3 li a:hover{
+    color: #FF914D;
+}
+.sec4 li a:hover{
+    color: #FF914D;
+}
+
+/* fim footer 1 */
+
+/* inicio footer 2 */
+
+.footer2{
+    width: 100%;
+    height: 600px;
+    background-color: #111111;
+}
+
+/* inicio footer 3 */
+
+.footer3{
+    width: 100%;
+    height: 170px;
+    background-color: #111111;
+    border-top: 1px solid #191919 ;
+}
+
+.imgfooter{
+    padding: 30px;
+    float: left;
+}
+
+.footer3 p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 60px;
+    float: left;
+}
+
+.redes{
+    float: right;
+    list-style: none;
+    color: white;
+    padding-top: 60px;
+
+}
+
+.redes li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.redes li:hover{
+    color: #FF914D;
+}
+
+/* fim footer 3 */
